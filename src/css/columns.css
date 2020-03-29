@@ -1,9 +1,27 @@
 .column {
   width: 277px;
-  background-color: #EBECF0;
+  height: 100%;
+  display: inline-block;
+  white-space: nowrap;
+}
+.column:first-child {
+  margin-left: var(--md);
+}
+.column:last-child {
+  margin-right: var(--md);
+  padding: var(--sm);
+}
+
+.column-content {
+  background-color: #ebecf0;
+  flex-direction: column;
+  max-height: 100%;
 }
 
 .column-list {
-  max-height: 300px;
+  flex: 1 1 auto;
+  margin-bottom: 0;
   overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,10 @@
   <title>Bello</title>
   <link rel="stylesheet" href="./dist/main.css">
 </head>
+
 <body class="flex flex-column min-height-full-vh">
+
+  <!-- Main Header -->
   <header class="bg-colour-blue1 pa-sm flex">
     <div class="flex flex-grow flex-start flex-align-center">
       <button class="button button-blue2 mr-sm">
@@ -44,99 +48,254 @@
       <button class="circle-button mr-sm">JM</button>
     </div>
   </header>
-  <div class="bg-colour-blue4 flex-grow">
-    <header  class="pa-md flex flex-space-between">
-      <div class="flex flex-align-center">
-        <button class="button button-blue3 bg-colour-blue4 font-size-lg font-weight-bold mr-md">Developyn</button>
-        <button icon class="button button-blue3">
-          <i class="far fa-star"></i>
-        </button>
-        <div class="vertical-line mx-md"></div>
-        <button class="button button-blue3">Developyn (Free)</button>
-        <div class="vertical-line mx-md"></div>
-        <button class="button icon button-blue3">
-          <i class="fas fa-user-friends"></i>
-          <p>Visible by members of a team</p>
-        </button>
-        <div class="vertical-line mx-md"></div>
-        <div class="mr-md px-sm">
-          <button class="circle-button face-pile">JM</button>
-          <button class="circle-button face-pile">MM</button>
-          <button class="circle-button face-pile">KB</button>
-          <button class="circle-button face-pile">AS</button>
+
+  <!-- Content Wrapper -->
+  <div class="pos-rel overflow-y-auto flex-grow bg-colour-blue4">
+    <!-- Fixed Board Wrapper -->
+    <div class="pos-abs-zeroed">
+      <!-- Board Content -->
+      <div class="flex flex-column height-full">
+        <!-- Board Header -->
+        <header class="flex flex-space-between pa-md">
+          <div class="flex flex-align-center">
+            <button class="button button-blue3 bg-colour-blue4 font-size-lg font-weight-bold mr-md">Developyn</button>
+            <button icon class="button button-blue3">
+              <i class="far fa-star"></i>
+            </button>
+            <div class="vertical-line mx-md"></div>
+            <button class="button button-blue3">Developyn (Free)</button>
+            <div class="vertical-line mx-md"></div>
+            <button class="button icon button-blue3">
+              <i class="fas fa-user-friends"></i>
+              <p>Visible by members of a team</p>
+            </button>
+            <div class="vertical-line mx-md"></div>
+            <div class="mr-md px-sm">
+              <button class="circle-button face-pile">JM</button>
+              <button class="circle-button face-pile">MM</button>
+              <button class="circle-button face-pile">KB</button>
+              <button class="circle-button face-pile">AS</button>
+            </div>
+            <button class="button button-blue3 mr-md">Invite</button>
+          </div>
+          <div class="flex flex-align-center">
+            <button class="button icon button-blue3 mr-sm">
+              <i class="far fa-calendar-alt"></i>
+              <p>Calendar</p>
+            </button>
+            <button class="button icon button-blue3 mr-sm">
+              <i class="fas fa-concierge-bell"></i>
+              Butler (18 Tips)
+            </button>
+            <button class="button icon button-blue3 mr-sm">
+              <i class="fas fa-ellipsis-h"></i>
+              <p>Show Menu</p>
+            </button>
+          </div>
+        </header>
+        <!-- Board Scroll Inset -->
+        <div class="pos-rel flex-grow">
+          <!-- Board -->
+          <div class="pos-abs-zeroed overflow-x-auto overflow-y-hidden white-space-nowrap mb-md pb-md">
+            <div class="column mx-sm">
+              <div draggable="true" class="flex column-content rounded-sm">
+                <div class="flex flex-space-between pa-md">
+                  <p class="font-weight-bold py-sm px-sm">To do</p>
+                  <button class="button colour-dark-grey1"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <div>
+                  <ul class="list-style-none column-list mx-sm px-sm">
+                    <li draggable="true" class="card">
+                      Do thingsDo thingsDo thingsDo thingsDo thingsDo thingsDo thingsDo things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                    <li draggable="true" class="card">
+                      Do things
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex flex-space-between px-md pb-md">
+                  <button class="flex flex-grow flex-align-center button icon colour-dark-grey1">
+                    <i class="fas fa-plus"></i>
+                    <p>Add another card</p>
+                  </button>
+                  <button class="button icon colour-dark-grey1"><i class="fab fa-trello"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="column mx-sm">
+              <div draggable="true" class="flex column-content rounded-sm">
+                <div class="flex flex-space-between pa-md">
+                  <p class="font-weight-bold py-sm px-sm">Doing</p>
+                  <button class="button colour-dark-grey1"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <ul class="list-style-none column-list mx-sm px-sm">
+                </ul>
+                <div class="flex flex-space-between px-md pb-md">
+                  <button class="flex flex-grow flex-align-center button icon colour-dark-grey1">
+                    <i class="fas fa-plus"></i>
+                    <p>Add another card</p>
+                  </button>
+                  <button class="button icon colour-dark-grey1"><i class="fab fa-trello"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="column mx-sm">
+              <div draggable="true" class="flex column-content rounded-sm">
+                <div class="flex flex-space-between pa-md">
+                  <p class="font-weight-bold py-sm px-sm">Done</p>
+                  <button class="button colour-dark-grey1"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <ul class="list-style-none column-list mx-sm px-sm">
+                  <li draggable="true" class="card">
+                    Do thingsDo thingsDo thingsDo thingsDo thingsDo thingsDo thingsDo things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                  <li draggable="true" class="card">
+                    Do things
+                  </li>
+                </ul>
+                <div class="flex flex-space-between px-md pb-md">
+                  <button class="flex flex-grow flex-align-center button icon colour-dark-grey1">
+                    <i class="fas fa-plus"></i>
+                    <p>Add another card</p>
+                  </button>
+                  <button class="button icon colour-dark-grey1"><i class="fab fa-trello"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="column mx-sm">
+              <div draggable="true" class="flex column-content rounded-sm">
+                <div class="flex flex-space-between pa-md">
+                  <p class="font-weight-bold py-sm px-sm">Doing</p>
+                  <button class="button colour-dark-grey1"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <ul class="list-style-none column-list mx-sm px-sm">
+                </ul>
+                <div class="flex flex-space-between px-md pb-md">
+                  <button class="flex flex-grow flex-align-center button icon colour-dark-grey1">
+                    <i class="fas fa-plus"></i>
+                    <p>Add another card</p>
+                  </button>
+                  <button class="button icon colour-dark-grey1"><i class="fab fa-trello"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="column mx-sm">
+              <div draggable="true" class="flex column-content rounded-sm">
+                <div class="flex flex-space-between pa-md">
+                  <p class="font-weight-bold py-sm px-sm">Doing</p>
+                  <button class="button colour-dark-grey1"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <ul class="list-style-none column-list mx-sm px-sm">
+                </ul>
+                <div class="flex flex-space-between px-md pb-md">
+                  <button class="flex flex-grow flex-align-center button icon colour-dark-grey1">
+                    <i class="fas fa-plus"></i>
+                    <p>Add another card</p>
+                  </button>
+                  <button class="button icon colour-dark-grey1"><i class="fab fa-trello"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="column mx-sm">
+              <div draggable="true" class="flex column-content rounded-sm">
+                <div class="flex flex-space-between pa-md">
+                  <p class="font-weight-bold py-sm px-sm">Doing</p>
+                  <button class="button colour-dark-grey1"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <ul class="list-style-none column-list mx-sm px-sm">
+                </ul>
+                <div class="flex flex-space-between px-md pb-md">
+                  <button class="flex flex-grow flex-align-center button icon colour-dark-grey1">
+                    <i class="fas fa-plus"></i>
+                    <p>Add another card</p>
+                  </button>
+                  <button class="button icon colour-dark-grey1"><i class="fab fa-trello"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <button class="button button-blue3 mr-md">Invite</button>
       </div>
-      <div class="flex flex-align-center">
-        <button class="button icon button-blue3 mr-sm">
-          <i class="far fa-calendar-alt"></i>
-          <p>Calendar</p>
-        </button>
-        <button class="button icon button-blue3 mr-sm">
-          <i class="fas fa-concierge-bell"></i>
-          Butler (18 Tips)
-        </button>
-        <button class="button icon button-blue3 mr-sm">
-          <i class="fas fa-ellipsis-h"></i>
-          <p>Show Menu</p>
-        </button>
-      </div>
-    </header>
-    <main class="pa-md">
-      <div class="column pa-md rounded-sm">
-        <div class="flex flex-space-between pa-md">
-          <h3 class="font-weight-bold">To do</h3>
-          <button class="button colour-dark-grey1"><i class="fas fa-ellipsis-h"></i></button>
-        </div>
-        <div>
-          <ul class="list-style-none column-list">
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do thingsDo thingsDo thingsDo thingsDo thingsDo thingsDo thingsDo things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-            <li class="bg-colour-white rounded-sm pa-md font-size-sm mb-md">
-              Do things
-            </li>
-          </ul>
-        </div>
-        <div class="flex flex-space-between">
-          <button class="flex flex-grow flex-align-center button icon colour-dark-grey1">
-            <i class="fas fa-plus"></i>
-            <p>Add another card</p>
-          </button>
-          <button class="button icon colour-dark-grey1"><i class="fab fa-trello"></i></button>
-        </div>
-      </div>
-    </main>
+    </div>
   </div>
 </body>
+
 </html>

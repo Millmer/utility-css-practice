@@ -1,4 +1,5 @@
 @import "./global.css";
+@import "./components/card.postcss";
 @import "./buttons.css";
 @import "./dividers.css";
 @import "./inputs.css";
@@ -10,7 +11,10 @@
 @import "./lists.css";
 @import "./margins.css";
 @import "./heights.css";
+@import "./positions.css";
 @import "./borders.css";
+@import "./overflows.css";
+@import "./text.css";
 @import "./fonts.css";
 @import "./fontawesome.css";
 
