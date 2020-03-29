@@ -1,0 +1,59 @@
+.no-padding {
+  padding: 0;
+}
+
+.padding-sm {
+  padding: var(--sm);
+}
+
+.padding-top-sm {
+  padding-top: var(--sm);
+}
+
+.padding-bottom-sm {
+  padding-bottom: var(--sm);
+}
+
+.padding-left-sm {
+  padding-left: var(--sm);
+}
+
+.padding-right-sm {
+  padding-right: var(--sm);
+}
+
+.padding-height-sm {
+  padding: var(--sm) 0;
+}
+
+.padding-width-sm {
+  padding: 0 var(--sm);
+}
+
+.padding-md {
+  padding: var(--md);
+}
+
+.padding-top-md {
+  padding-top: var(--md);
+}
+
+.padding-bottom-md {
+  padding-bottom: var(--md);
+}
+
+.padding-left-md {
+  padding-left: var(--md);
+}
+
+.padding-right-md {
+  padding-right: var(--md);
+}
+
+.padding-height-md {
+  padding: var(--md) 0;
+}
+
+.padding-width-md {
+  padding: 0 var(--md);
+}

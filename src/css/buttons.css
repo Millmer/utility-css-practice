@@ -1,0 +1,54 @@
+.button {
+  background: none;
+  border: none;
+  color: white;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 0 var(--md);
+  cursor: pointer;
+}
+.button-blue2 {
+  background-color: var(--bg-colour-blue2);
+}
+.button-blue3 {
+  background-color: var(--bg-colour-blue3);
+}
+
+.button.icon p {
+  display: inline-block;
+  margin: 0 0 0 var(--md);
+  vertical-align: top;
+}
+
+.circle-button {
+  background: none;
+  border: none;
+  color: #000;
+  background-color: #E0E1E6;
+  height: 28px;
+  width: 28px;
+  border-radius: 25em;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:hover,
+.circle-button:hover {
+  transition: background-color 0.1s;
+  background-color: #C2C7CF;
+}
+.button-blue2:hover {
+  background-color: #5486B2;
+}
+.button-blue3:hover {
+  background-color: #73A4D0;
+}
+.circle-button:hover {
+  background-color: #C2C7CF;
+}

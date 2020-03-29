@@ -1,0 +1,30 @@
+.bg-colour-blue1 {
+  background-color: var(--bg-colour-blue1);
+}
+
+.bg-colour-blue2 {
+  background-color: var(--bg-colour-blue2);
+}
+
+.bg-colour-blue3 {
+  background-color: var(--bg-colour-blue3);
+}
+
+.bg-colour-blue4 {
+  background-color: var(--bg-colour-blue4);
+}
+
+.bg-colour-white {
+  background-color: #fff;
+}
+
+.colour-white {
+  color: #fff;
+}
+.colour-dark-grey {
+  color: #6F798D
+}
+
+.colour-black {
+  color: #000;
+}

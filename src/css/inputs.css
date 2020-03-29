@@ -1,0 +1,38 @@
+.input-wrapper {
+  position: relative;
+  display: inline;
+}
+.input-wrapper .icon {
+  margin-right: -30px;
+  color: white;
+}
+
+.input {
+  background-color: var(--bg-colour-blue2);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  z-index: 1;
+}
+.input.icon {
+  padding-right: 30px;
+}
+
+.search {
+  font-size: 13px;
+  padding: 8px;
+  height: 32px;
+  line-height: 19px;
+  width: 180px;
+  transition: width 0.15s;
+}
+.search:hover {
+  background-color: #7FA4C5;
+}
+
+.search:focus {
+  background-color:white;
+  color: black;
+  width: 280px;
+}

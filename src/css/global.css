@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-colour-blue1: #2A679E;
+  --bg-colour-blue2: #6A95BB;
+  --bg-colour-blue3: #6299CB;
+  --bg-colour-blue4: #3179BA;
+
+  --sm: 4px;
+  --md: 8px;
+}
+
+body {
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+}
