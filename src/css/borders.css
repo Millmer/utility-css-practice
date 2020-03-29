@@ -1,3 +1,7 @@
-.border-radius-sm {
+.rounded-sm {
   border-radius: var(--sm);
+}
+
+.rounded-md {
+  border-radius: var(--md);
 }

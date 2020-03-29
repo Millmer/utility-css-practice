@@ -7,10 +7,19 @@
 }
 
 :root {
-  --bg-colour-blue1: #2A679E;
-  --bg-colour-blue2: #6A95BB;
-  --bg-colour-blue3: #6299CB;
-  --bg-colour-blue4: #3179BA;
+  /* Primaries */
+  --colour-blue1: #2A679E;
+  --colour-blue2: #6A95BB;
+  --colour-blue2-hover: #5486B2;
+  --colour-blue3: #6299CB;
+  --colour-blue3-hover: #73A4D0;
+  --colour-blue4: #3179BA;
+  --colour-blue5: #7FA4C5;
+
+  /* Greys */
+  --colour-light-grey1: #E0E1E6;
+  --colour-light-grey2: #C2C7CF;
+  --colour-dark-grey1: #6F798D;
 
   --sm: 4px;
   --md: 8px;

@@ -10,10 +10,10 @@
   cursor: pointer;
 }
 .button-blue2 {
-  background-color: var(--bg-colour-blue2);
+  background-color: var(--colour-blue2);
 }
 .button-blue3 {
-  background-color: var(--bg-colour-blue3);
+  background-color: var(--colour-blue3);
 }
 
 .button.icon p {
@@ -26,7 +26,7 @@
   background: none;
   border: none;
   color: #000;
-  background-color: #E0E1E6;
+  background-color: var(--colour-light-grey1);
   height: 28px;
   width: 28px;
   border-radius: 25em;
@@ -41,14 +41,14 @@
 .button:hover,
 .circle-button:hover {
   transition: background-color 0.1s;
-  background-color: #C2C7CF;
+  background-color: var(--colour-light-grey2);
 }
 .button-blue2:hover {
-  background-color: #5486B2;
+  background-color: var(--colour-blue2-hover);
 }
 .button-blue3:hover {
-  background-color: #73A4D0;
+  background-color: var(--colour-blue3-hover);
 }
 .circle-button:hover {
-  background-color: #C2C7CF;
+  background-color: var(--colour-light-grey2);
 }

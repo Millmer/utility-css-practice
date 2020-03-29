@@ -1,30 +1,55 @@
 .bg-colour-blue1 {
-  background-color: var(--bg-colour-blue1);
+  background-color: var(--colour-blue1);
 }
 
 .bg-colour-blue2 {
-  background-color: var(--bg-colour-blue2);
+  background-color: var(--colour-blue2);
 }
 
 .bg-colour-blue3 {
-  background-color: var(--bg-colour-blue3);
+  background-color: var(--colour-blue3);
 }
 
 .bg-colour-blue4 {
-  background-color: var(--bg-colour-blue4);
+  background-color: var(--colour-blue4);
 }
 
 .bg-colour-white {
   background-color: #fff;
 }
 
+.bg-colour-black {
+  background-color: #000;
+}
+
+.bg-colour-light-grey1 {
+  color: var(--colour-light-grey1);
+}
+
+.bg-colour-light-grey2 {
+  color: var(--colour-light-grey2);
+}
+
+.bg-colour-dark-grey1 {
+  color: var(--colour-dark-grey1);
+}
+
 .colour-white {
   color: #fff;
-}
-.colour-dark-grey {
-  color: #6F798D
 }
 
 .colour-black {
   color: #000;
+}
+
+.colour-light-grey1 {
+  color: var(--colour-light-grey1);
+}
+
+.colour-light-grey2 {
+  color: var(--colour-light-grey2);
+}
+
+.colour-dark-grey1 {
+  color: var(--colour-dark-grey1);
 }
