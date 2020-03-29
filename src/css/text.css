@@ -5,3 +5,7 @@
 .white-space-nowrap {
   white-space: nowrap;
 }
+
+.user-select-none {
+  user-select: none;
+}

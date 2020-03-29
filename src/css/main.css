@@ -17,6 +17,7 @@
 @import "./text.css";
 @import "./fonts.css";
 @import "./fontawesome.css";
+@import "./scrollbar.css";
 
 .face-pile {
   margin: 0 0 0 -6px;
