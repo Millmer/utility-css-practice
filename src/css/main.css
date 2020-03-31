@@ -1,5 +1,6 @@
 @import "./global.css";
 @import "./components/card.postcss";
+@import "./components/face-pile.postcss";
 @import "./buttons.css";
 @import "./dividers.css";
 @import "./inputs.css";
@@ -18,7 +19,3 @@
 @import "./fonts.css";
 @import "./fontawesome.css";
 @import "./scrollbar.css";
-
-.face-pile {
-  margin: 0 0 0 -6px;
-}

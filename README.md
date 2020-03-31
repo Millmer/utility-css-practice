@@ -4,7 +4,7 @@ The goal of this project is to practice creating and using the css design patter
 
 In order to acheive this goal the Trello web application was used as a base.
 
-The project uses just vanilla CSS and HTML with PostCSS to compile all css files to a single distribution.
+The project uses just vanilla CSS and HTML with PostCSS to compile all css files to a single distribution and allow for extensions.
 
 # Future Goals
 
